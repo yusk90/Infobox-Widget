@@ -1,0 +1,157 @@
+.info-box {
+  position: relative;
+  z-index: 0;
+  width: 323px;
+  height: 337px;
+  background: url("images/sprite.png") no-repeat;
+  font-family: sans-serif;
+}
+
+.info-box__image-wrapper {
+  width: 318px;
+  height: 200px;
+  margin: 0 0 0 1px;
+}
+
+.info-box__image {
+  width: 100%;
+  height: auto;
+  -moz-border-radius: 8px 8px 0 0;
+       border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  behavior: url(PIE.htc);
+}
+
+.info-box__description {
+  padding: 0 15px;
+}
+
+.info-box__title {
+  padding: 10px 0 4px;
+  margin: 0;
+  color: #ff6200;
+  font-size: 17px;
+  line-height: 1;
+}
+
+.info-box__title--full {
+  padding: 25px 0 4px;
+}
+
+.info-box__info-wrapper {
+  height: 27px;
+  max-height: 240px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.info-box__note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1;
+  color: #b8b8b8;
+}
+
+.info-box__details {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: #ff6200;
+  font-size: 12px;
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+}
+
+.info-box__details:hover {
+  color: #603913;
+}
+
+.controls {
+  position: absolute;
+  bottom: 9px;
+  right: 8px;
+  left: 6px;
+}
+
+.controls__button {
+  float: left;
+  position: relative;
+  width: 68px;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-size: 11px;
+  line-height: 1;
+  border: none;
+  outline: none;
+  background: url("images/sprite.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  /* Hello, IE: */
+  overflow: visible;
+}
+
+.controls__button:hover {
+  color: #fff;
+}
+
+.controls__prev {
+  padding-right: 5px;
+  text-align: right;
+  background-position: -335px -10px;
+}
+
+.controls__prev:hover {
+  background-position: -335px -42px;
+}
+
+.controls__button-arrow {
+  position: absolute;
+  width: 12px;
+  height: 10px;
+  top: 9px;
+  background: url("images/sprite.png");
+}
+
+.controls__prev-arrow {
+  left: 5px;
+  background-position: -409px -18px;
+}
+
+.controls__next-arrow {
+  right: 5px;
+  background-position: -410px -82px;
+}
+
+.controls__next {
+  padding-left: 5px;
+  text-align: left;
+  background-position: -335px -74px;
+}
+
+.controls__next:hover {
+  background-position: -335px -106px;
+}
+
+.controls__find {
+  float: right;
+  width: 93px;
+  height: 26px;
+  padding: 0 0 0 4px;
+  color: #ff6200;
+  font-size: 11px;
+  line-height: 26px;
+  text-decoration: none;
+  background: url("images/sprite.png") no-repeat;
+  background-position: -335px -139px;
+  outline: none;
+}
+
+.controls__find:hover {
+  color: #fff;
+  background-position: -335px -172px;
+}

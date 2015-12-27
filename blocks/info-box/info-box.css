@@ -1,0 +1,69 @@
+.info-box {
+    position: relative;
+    z-index: 0;
+    width: 323px;
+    height: 337px;
+    background: url("images/sprite.png") no-repeat;
+    font-family: sans-serif;
+}
+
+.info-box__image-wrapper {
+    width: 318px;
+    height: 200px;
+    margin: 0 0 0 1px;
+}
+
+.info-box__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    behavior: url(PIE.htc);
+}
+
+.info-box__description {
+    padding: 0 15px;
+}
+
+.info-box__title {
+    padding: 10px 0 4px;
+    margin: 0;
+    color: #ff6200;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.info-box__title--full {
+    padding: 25px 0 4px;
+}
+
+.info-box__info-wrapper {
+    height: 27px;
+    max-height: 240px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.info-box__note {
+    margin: 10px 0 0;
+    font-size: 12px;
+    line-height: 1;
+    color: #b8b8b8;
+}
+
+.info-box__details {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    color: #ff6200;
+    font-size: 12px;
+    text-decoration: underline;
+    outline: none;
+    cursor: pointer;
+}
+
+.info-box__details:hover {
+    color: #603913;
+}

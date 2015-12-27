@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project Boilerplate</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<script type="text/html" id="info-box-template">
+    <div class="info-box__image-wrapper">
+        <img class="info-box__image" src="images/info-box/<%= img %>"
+             alt="Product image">
+    </div>
+    <div class="info-box__description">
+        <h2 class="info-box__title"><%= title %></h2>
+        <div class="info-box__info-wrapper">
+            <div class="info-box__info"><%= description.slice(0, 80).trim() + '...'
+                                        %></div>
+            <div class="info-box__note"><%= note %></div>
+        </div>
+        <a class="info-box__details" href="#">show details</a>
+    </div>
+    <div class="info-box__controls controls">
+        <button class="controls__button controls__prev">
+            Prev
+            <span class="controls__button-arrow controls__prev-arrow"></span>
+        </button>
+        <button class="controls__button controls__next">
+            Next
+            <span class="controls__button-arrow controls__next-arrow"></span>
+        </button>
+        <a class="controls__find" href="#<%= productUrl.slice(0, -5) %>">
+            Find A Store</a>
+    </div>
+</script>
+<body>
+    <div class="content"></div>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

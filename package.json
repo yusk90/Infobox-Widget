@@ -1,0 +1,22 @@
+{
+  "name": "Project-Boilerplate",
+  "version": "1.0.0",
+  "description": "Project boilerplate",
+  "author": "yusk90",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "browser-sync": "^2.6.9",
+    "del": "^2.1.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-concat-css": "~2.2.0",
+    "gulp-mustache": "~1.1.1",
+    "gulp-postcss": "^6.0.1",
+    "gulp-util": "^3.0.7",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "jquery": "^1.11.3",
+    "underscore": "^1.8.3"
+  }
+}
